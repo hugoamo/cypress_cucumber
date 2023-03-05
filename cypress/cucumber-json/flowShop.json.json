@@ -1,0 +1,113 @@
+[
+  {
+    "description": "    As a valid user\n    I want to log in into Application",
+    "keyword": "Feature",
+    "name": "login to Application",
+    "line": 1,
+    "id": "login-to-application",
+    "tags": [],
+    "uri": "flowShop.feature",
+    "elements": [
+      {
+        "id": "login-to-application;valid-login",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Valid login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open login page",
+            "result": {
+              "status": "passed",
+              "duration": 1360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "A user enters the username \"standard_user2\", the password \"secret_demoblaze_standard_user\", and clicks on the login",
+            "result": {
+              "status": "passed",
+              "duration": 1095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should be \"standard_user2\"",
+            "result": {
+              "status": "passed",
+              "duration": 837000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-to-application;add-product-to-cart",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Add product to cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "User is on products demoblaze landing page",
+            "result": {
+              "status": "passed",
+              "duration": 372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "added 2 items of the selected product to cart",
+            "result": {
+              "status": "passed",
+              "duration": 2596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verify that the order has two items",
+            "result": {
+              "status": "passed",
+              "duration": 734000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user complet all form",
+            "result": {
+              "status": "passed",
+              "duration": 1549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user finaly purchase",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

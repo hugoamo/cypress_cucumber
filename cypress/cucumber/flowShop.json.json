@@ -1,0 +1,51 @@
+[
+  {
+    "description": "    As a valid user\n    I want to log in into Application",
+    "keyword": "Feature",
+    "name": "login to Application",
+    "line": 1,
+    "id": "login-to-application",
+    "tags": [],
+    "uri": "flowShop.feature",
+    "elements": [
+      {
+        "id": "login-to-application;valid-login",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Valid login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open login page",
+            "result": {
+              "status": "undefined",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I submit login",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see homepage",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
